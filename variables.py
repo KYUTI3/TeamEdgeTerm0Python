@@ -14,8 +14,10 @@ print(message)
 # It goes something like:
 # -------------------------------------------- 
 
-print("------------------- Challenge 1 -------------------")
-
+print("-------- ----------- Challenge 1 -------------------")
+name = "Luis"
+grade = 10
+funFact = "I like to read"
 print(f"Hi! My name is {name}")
 print(f"I'm in the {grade}th grade.")
 print(f"A fun fact about me is that {funFact}")
@@ -35,13 +37,21 @@ print(f"A fun fact about me is that {funFact}")
 # **** Challenge 1: Problem 2 ****
 # Create a string for the different lines of the Happy Birthday Song
 # Print out the song using the strings you declared.
-
-
-
+message = "---------- Problem 2 -----------"
+message_2 = "Happy birthday to you"
+message_3 = "Are you 1? are you 20? are you 69?"
+print(message)
+print(message_2)
+print(message_3)
 
 # **** Challenge 1: Problem 3 ****
 # Print out a string that has brackets in it.
 
+
+
+Animal = "turtle"
+
+print (f"{Animal}" )
 
 
 
@@ -61,26 +71,43 @@ num2 = 10
 # Store the sum of num1 and num2 in a variable.
 # Print the sum.
 
+print (num1 + num2)
+
+sum = num1 + num2
 
 # **** Challenge 2: Problem 2 ****
 # Store the difference between sum (above) and 7 in a variable.
 # Print the difference.
 
+num3= sum - 7
+
+
+print(num3)
 
 # **** Challenge 2: Problem 3 ****
 # Store the product of the difference and 3 in a variable.
 # Print the product.
+
+product= num3 * 3
+
+print(product) 
 
 
 # **** Challenge 2: Problem 4 ****
 # Store the power of the product squared in a variable.
 # Print the power.
 
+power= product * 2
+
+print(power)
 
 # **** Challenge 2: Problem 5 ****
 # Store the quotient of the power divided by 4 in a variable.
 # Print the quotient.
 
+quotient = 24 / 4
+
+print(quotient) 
 
 # **** Challenge 2: Problem 6 ****
 # Store the remainder of the quotient divided by 2 in a variable.
