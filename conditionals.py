@@ -14,6 +14,23 @@ print("------------------- Challenge 1 -------------------")
 
 
 
+age = input ("Enter your age")
+
+print(type(age))
+
+print (age)
+
+# check if age is greater than or equal to 18
+
+if int(age) >= 16:
+ print ("Congratulations, you are eligible to recieve a driver's license!")
+
+else:
+ print ("So you have chosen... death.")   
+ 
+
+
+
 
 
 
@@ -32,7 +49,19 @@ print("------------------- Challenge 2 -------------------")
    # Write conditional statements that checks which is the highest and prints the highest score. 
    # Hint: Create three variables and assign them random scores. 
 
+import random
 
+
+
+
+Score_1 = 6
+
+Score_2 = 5
+
+if int(Score_2) <= (Score_1):
+   print("Score_1 takes the lead!!")
+else: 
+ print("Score_2 takes the lead!!")
 
 
 
@@ -60,6 +89,18 @@ print("------------------- Challenge 3 -------------------")
 
 # Here's a variable to get you started:
 weather = "rainy"
+
+Temp = random.randrange(50,60,70,)
+print(Temp)
+if Temp == 70:
+ print ("Bring a T-shirt, and keep it on to a T")
+
+ if Temp == 50:
+  print ("Bring a coat; it's going to be more colder than your soul") 
+
+ if Temp == 60:
+   print ("Bring a sweatshirt bud") 
+
 
 
 
