@@ -1,2 +1,2 @@
-# TeamEdgeTerm0
+# TeamEdgeTerm0 Python Course
 

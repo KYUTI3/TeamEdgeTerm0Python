@@ -45,6 +45,9 @@ import random
 
 
 
+
+
+
 # -------------------------------------------- 
 
 	# Part 2: Next, we need to randomly select a response from 20 options.
@@ -102,8 +105,6 @@ import random
 	# Select your own theme and use case and modify your code!
 	
 # -------------------------------------------- 
-
-
 
 
 
