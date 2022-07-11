@@ -30,7 +30,22 @@
 	#5. the total including tax and tip
 
 # -------------------------------------------- 
-
+def menu():
+  #Meals
+  print("******Meals******")
+  print("[0] Big Mac: $4")
+  print("[1] Spicy Chicken Sandwhich: $5")
+  print("[2] 10 Chicken Nuggets: $5")
+  #Drinks
+  print("******Drinks******")
+  print("[3] Hi-C: $2")
+  print("[4] Pepsi: $3")
+  print("[5] Coke: $3")
+  #Dessert
+  print("******Desserts******")
+  print("[6] McFlurry: $3")
+  print("[7] Vanilla Cone: $1")
+  print("[8] Hot Fudge Sundae: $2")
 
 # -------------------------------------------- 
 
@@ -44,6 +59,59 @@
 
 
 
+meal = 0
+drink = 0
+dessert = 0
+total = 0
+
+print("\nWhat would you like to order today?\n")
+menu()
+order1 = input("\nMeal: ")
+print(order1)
+amount1 = input("Amount: ")
+order2= input("Drinks: ")
+amount2 = input("Amount: ")
+order3= input("Desserts: ")
+amount3 = input("Amount: ")
+def meal():
+  meal = 0
+  if(int(order1) == 0): 
+    meal = 4 #4 = cost added
+  elif(int(order1) == 1):
+    meal = 5 #5 = cost added
+  elif(int(order1)== 2):
+    meal = 5
+  meal *= int(amount1)
+  return meal
+def drinks():
+  drinks = 0
+  if(int(order2) == 3):
+    drink = 2
+  elif(int(order2) == 4):
+    drink = 3
+  elif(int(order2) == 5):
+    drink = 3
+  drinks *= int(amount2)
+  return drink
+
+def dessert():
+  dessert = 0
+  if(int(order3) == 6):
+    dessert = 3
+  elif(int(order3) == 7):
+    dessert = 1
+  elif(int(order3) == 8):
+    dessert = 2
+  dessert *= int(amount3)
+  return dessert
+
+print(meal())
+def tax():
+  #total += (int(total))*.1)
+  print("Total after tax" + str(total))
+
+
+  
 # -------------------------------------------- 
 
 # Part 2:
