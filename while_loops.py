@@ -16,6 +16,10 @@
  # 
  # ***************************************************************/
 
+from random import randint
+import random
+
+
 print("------------------- CHALLENGE 1 : IN YOUR PRIME -------------------")
 
 #Here is a humble while loop in action. We need a variable to hold the counter value.
@@ -42,7 +46,10 @@ def test_prime(n):
 
 #-->TODO: Declare a while loop that prints all the prime numbers between 0 and 100, use test_prime() helper function
 
+i = 0
 
+while i in range(0,100):
+  print(i + "is prime?" + test_prime(1))
 
 print("------------------- CHALLENGE 2 : FOUND   -------------------")
 
@@ -51,6 +58,11 @@ items = ["pencil" , "eraser" , "mirror" , "comb" , "spoon" , "key" , "earrings" 
 
 #-->TODO: Use a while loop to search the contents of a list for the key! If it exists, print "found the key!"
 
+key_found = False
+num = 0 
+while key_found == False 
+ 
+ 
 
 
 print("------------------- CHALLENGE 3 : BUGGIN   -------------------")
@@ -106,6 +118,18 @@ print("------------------- CHALLENGE 4 : MATH QUIZ   -------------------")
 
 is_correct = False
 
+while is_correct == False:
+  random_number1 = random.randint(0, 1)
+  random_number2 = random.randint(0, 1)
+  user_input = input ("Guess first number")
+  user_input2 = input ("Guess the second number")
+  if random_number1 == user_input and random_number2 == user_input2:
+    print("you are correct")
+    is_correct = True
+  else:
+      print("Wrong numbers! Try again")
+
+
 
 print("------------------- CHALLENGE 5 : WHAT AM I?   -------------------")
 
@@ -116,14 +140,21 @@ print("------------------- CHALLENGE 5 : WHAT AM I?   -------------------")
 keep_asking = False
 
 def prompt_user():
-    pass
+    print("Hey what do you think i am?")
+    response = input()
+    return response 
 
 def response(response):
-    pass
+    print (f"I know you're {response}, but what am i?")
 
 while keep_asking:
+  while keep_asking == True: 
+    response(prompt_user())
+
     #response(prompt_user())
-    pass
+    
+
+
 
 #-->TODO: Challenge! write a secret word to break out of the loop!
 
