@@ -16,6 +16,9 @@
  # 
  # #########################################################################/
 
+from operator import truth
+
+
 print("------------------- CHALLENGE 1 : DEFINE    -------------------")
 
 #Below is a simple example of a dictionary implementaion. 
@@ -40,7 +43,7 @@ print(dictionary)
 
 ##################################  MY dictionary ########################### #/
 
-
+my_dic = { "amogus" : 69, "lol" : 420, "3 == 3" : True,  }
 
 
 
@@ -53,11 +56,17 @@ print("------------------- CHALLENGE 2 : MODIFY   -------------------")
 
 #-->TODO: Print your dictionary you created above
 
+print(my_dic)
 
-#-->TODO: Update the dictionary you just created  by adding new properties and values, including list elements, in this section.
+
+#-->TODO: Update the dictionary you just created by adding new properties and values, including list elements, in this section.
+
+my_dic["lol"].append("Morbius")
 
 
 #-->TODO: Print your dictionary again and observe changes
+
+print(my_dic)
 
 
 print("------------------- CHALLENGE 3 : MEHTODS   -------------------")
@@ -65,11 +74,34 @@ print("------------------- CHALLENGE 3 : MEHTODS   -------------------")
 
 #-->TODO: Make a method that will update your dictionary value. It should take in a dictionary and return it modified.
 
+def update (my_dic):
+    my_dic["name"] = "name1"
+    print(my_dic)
+
 
 #-->TODO: Call the method.
 
-
+update(my_dic)
 
 print("------------------- CHALLENGE 4 : LITERALLY   -------------------")
 
 #-->TODO: Put it all together using a string literal to tell the story of your dictionary!
+
+def stringlit(my_dic):
+    stringlit = ""
+    for x, y in dict.items():
+        stringlit += str(x) + ","   
+        stringlit += str(y) + ","
+    return stringlit
+
+print(stringlit(my_dic))  
+
+Director: Luis Cardenas 
+      
+      He did everything...
+
+      including your mother...
+
+      but we don't speak about that...") 
+
+print("Jack will return...
